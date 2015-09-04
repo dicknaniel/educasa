@@ -13,7 +13,7 @@
       </paper-item>
       <paper-menu class="menu-content sublist">
         {{ range $name, $taxonomy := .Site.Taxonomies.rooms }}
-        <paper-item><a href="/rooms/{{ $name | urlize }}">{{ $name }}</a></paper-item>
+        <a href="{{ $baseurl }}/rooms/{{ $name | urlize }}"><paper-item>{{ $name }}</paper-item></a>
         {{ end }}
       </paper-menu>
     </paper-submenu>
@@ -24,7 +24,7 @@
       </paper-item>
       <paper-menu class="menu-content sublist">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-        <paper-item><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></paper-item>
+        <paper-item><a href="{{ $baseurl }}/tags/{{ $name | urlize }}">{{ $name }}</a></paper-item>
         {{ end }}
       </paper-menu>
     </paper-submenu>
