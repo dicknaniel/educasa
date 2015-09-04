@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Science on educasa</title>
+    <link>http://knowlustrations.njdaniel.com/tags/science/</link>
+    <description>Recent content in Science on educasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Sep 2015 11:21:54 -0400</lastBuildDate>
+    <atom:link href="http://knowlustrations.njdaniel.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gravity</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/gravity/</link>
+      <pubDate>Fri, 04 Sep 2015 11:21:54 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/gravity/</guid>
+      <description>&lt;p&gt;gravity stuff&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

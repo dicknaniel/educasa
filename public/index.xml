@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>educasa</title>
+    <link>http://knowlustrations.njdaniel.com/</link>
+    <description>Recent content on educasa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Sep 2015 11:23:04 -0400</lastBuildDate>
+    <atom:link href="http://knowlustrations.njdaniel.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Garage Door</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/garage-door/</link>
+      <pubDate>Fri, 04 Sep 2015 11:23:04 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/garage-door/</guid>
+      <description>&lt;p&gt;Article content for garage door&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transmission Engine</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/transmission-engine/</link>
+      <pubDate>Fri, 04 Sep 2015 11:22:51 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/transmission-engine/</guid>
+      <description>&lt;p&gt;this is how a thing works&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scramble Eggs</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/scramble-eggs/</link>
+      <pubDate>Fri, 04 Sep 2015 11:22:28 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/scramble-eggs/</guid>
+      <description>&lt;p&gt;This is how to scramble eggs&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hedge Trimming</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/hedge-trimming/</link>
+      <pubDate>Fri, 04 Sep 2015 11:22:17 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/hedge-trimming/</guid>
+      <description>&lt;p&gt;How to trim hedges&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gravity</title>
+      <link>http://knowlustrations.njdaniel.com/lesson/gravity/</link>
+      <pubDate>Fri, 04 Sep 2015 11:21:54 -0400</pubDate>
+      
+      <guid>http://knowlustrations.njdaniel.com/lesson/gravity/</guid>
+      <description>&lt;p&gt;gravity stuff&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
