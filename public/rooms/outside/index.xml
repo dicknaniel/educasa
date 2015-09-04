@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Outside on educasa</title>
-    <link>http://knowlustrations.njdaniel.com/rooms/outside/</link>
+    <link>http://dicknaniel.github.io/educasa/rooms/outside/</link>
     <description>Recent content in Outside on educasa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 04 Sep 2015 11:21:54 -0400</lastBuildDate>
-    <atom:link href="http://knowlustrations.njdaniel.com/rooms/outside/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://dicknaniel.github.io/educasa/rooms/outside/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Gravity</title>
-      <link>http://knowlustrations.njdaniel.com/lesson/gravity/</link>
+      <link>http://dicknaniel.github.io/educasa/lesson/gravity/</link>
       <pubDate>Fri, 04 Sep 2015 11:21:54 -0400</pubDate>
       
-      <guid>http://knowlustrations.njdaniel.com/lesson/gravity/</guid>
+      <guid>http://dicknaniel.github.io/educasa/lesson/gravity/</guid>
       <description>&lt;p&gt;gravity stuff&lt;/p&gt;
 </description>
     </item>
