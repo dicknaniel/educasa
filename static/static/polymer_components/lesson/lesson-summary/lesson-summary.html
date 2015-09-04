@@ -1,0 +1,25 @@
+<dom-module id="lesson-summary">
+  <template>
+    <paper-card heading="{{ .Title }}" class="flex">
+      <div class="card-content">
+        <paper-item>
+          <paper-item-body two-line>
+            <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
+            <div secondary>{{ .Summary }}</div>
+          </paper-item-body>
+        </paper-item>
+      </div>
+      <div class="card-actions">
+        <paper-button><a href="{{ .Permalink }}">Read More</a></paper-button>
+      </div>
+    </paper-card>
+  </template>
+  <script>
+    Polymer({
+      is: 'lesson-summary',
+      properties: {
+        summary: String
+      }
+    });
+  </script>
+</dom-module>

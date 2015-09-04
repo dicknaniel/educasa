@@ -1,0 +1,42 @@
+{{ $baseurl := .Site.BaseURL }}
+<drawer-header-panel drawer mode="standard">
+
+  <paper-menu>
+    <a href="{{$baseurl}}"><paper-item>
+      <iron-icon icon="home"></iron-icon><div class="flex">Home</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <paper-submenu>
+      <paper-item class="menu-trigger">
+        <iron-icon icon="drafts"></iron-icon><div class="flex">Tags</div>
+        <iron-icon icon="chevron-right"></iron-icon>
+      </paper-item>
+      <paper-menu class="menu-content sublist">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <paper-item><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></paper-item>
+        {{ end }}
+      </paper-menu>
+    </paper-submenu>
+    <paper-submenu disabled>
+      <paper-item class="menu-trigger">Unavailable</paper-item>
+      <paper-menu class="menu-content sublist" multi>
+        <paper-item>Unavailable 1</paper-item>
+        <paper-item>Unavailable 2</paper-item>
+      </paper-menu>
+    </paper-submenu>
+  </paper-menu>
+  <paper-menu>
+    <a href="{{$baseurl}}"><paper-item>
+      <iron-icon icon="home"></iron-icon>　<div class="flex">Home</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <a href="{{$baseurl}}/categories/"><paper-item>
+      <iron-icon icon="drafts"></iron-icon>　<div class="flex">Categories</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <a href="{{$baseurl}}/tags/"><paper-item>
+      <iron-icon icon="loyalty"></iron-icon>　<div class="flex">Tags</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+  </paper-menu>
+</drawer-header-panel>

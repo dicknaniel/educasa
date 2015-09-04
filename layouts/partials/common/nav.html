@@ -1,0 +1,32 @@
+{{ $baseurl := .Site.BaseURL }}
+<drawer-header-panel drawer mode="standard">
+
+  <paper-menu>
+    <a href="{{$baseurl}}"><paper-item>
+      <iron-icon icon="group-work"></iron-icon><div class="flex">Home</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <paper-submenu>
+      <paper-item class="menu-trigger">
+        <iron-icon icon="home"></iron-icon><div class="flex">Rooms</div>
+        <iron-icon icon="chevron-right"></iron-icon>
+      </paper-item>
+      <paper-menu class="menu-content sublist">
+        {{ range $name, $taxonomy := .Site.Taxonomies.rooms }}
+        <paper-item><a href="/rooms/{{ $name | urlize }}">{{ $name }}</a></paper-item>
+        {{ end }}
+      </paper-menu>
+    </paper-submenu>
+    <paper-submenu>
+      <paper-item class="menu-trigger">
+        <iron-icon icon="drafts"></iron-icon><div class="flex">Tags</div>
+        <iron-icon icon="chevron-right"></iron-icon>
+      </paper-item>
+      <paper-menu class="menu-content sublist">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <paper-item><a href="/tags/{{ $name | urlize }}">{{ $name }}</a></paper-item>
+        {{ end }}
+      </paper-menu>
+    </paper-submenu>
+  </paper-menu>
+</drawer-header-panel>

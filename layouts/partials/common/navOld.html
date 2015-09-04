@@ -1,0 +1,29 @@
+{{ $baseurl := .Site.BaseURL }}
+<div class="nav scroll" drawer>
+{{if .Site.Params.profile}}
+  <iron-image class="profile" sizing="cover" src="{{$baseurl}}/{{.Site.Params.profile}}">
+{{else}}
+  <iron-image class="profile" sizing="cover" src="{{$baseurl}}/static/img/profile.png">
+{{end}}
+    {{if .Site.Params.photo}}
+      <iron-image class="photo" sizing="cover" src="{{$baseurl}}/{{.Site.Params.photo}}"></iron-image>
+    {{else}}
+      <iron-image class="photo" sizing="cover" src="{{$baseurl}}/static/img/photo.png"></iron-image>
+    {{end}}
+      <div class="author">{{.Site.Params.author}}</div>
+  </iron-image>
+  <paper-menu>
+    <a href="{{$baseurl}}"><paper-item>
+      <iron-icon icon="home"></iron-icon>　<div class="flex">Home</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <a href="{{$baseurl}}/categories/"><paper-item>
+      <iron-icon icon="drafts"></iron-icon>　<div class="flex">Categories</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+    <a href="{{$baseurl}}/tags/"><paper-item>
+      <iron-icon icon="loyalty"></iron-icon>　<div class="flex">Tags</div>
+      <iron-icon icon="chevron-right"></iron-icon>
+    </paper-item></a>
+  </paper-menu>
+</div>

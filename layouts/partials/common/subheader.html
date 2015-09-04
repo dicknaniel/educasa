@@ -1,0 +1,8 @@
+{{ $baseurl := .Site.BaseURL }}
+<paper-drawer-panel id="drawerPanel" responsive-width="2560px" narrow>
+  {{ partial "common/nav.html" . }}
+  <paper-header-panel main mode="waterfall" condenses>
+    <paper-toolbar>
+      <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+      <h3>{{ .Site.Title }}</h3>
+    </paper-toolbar>

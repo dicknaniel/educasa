@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+<head>
+    <meta charset="utf-8">
+
+    {{ partial "common/meta.html" . }}
+
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    {{ partial "common/head_includes.html" . }}
+</head>
+<body lang="en">
+
+{{ partial "common/subheader.html" . }}
+
+<section id="main" class="flex" layout-flex>
+  <div class="vertical center-justified layout">
+    {{ range first 10 .Data.Pages }}
+        {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</section>
+
+<aside id="meta"> </aside>
+
+{{ partial "common/footer.html" . }}

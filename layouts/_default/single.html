@@ -1,0 +1,16 @@
+
+{{ partial "common/header.html" . }}
+<body lang="en" itemscope itemtype="http://schema.org/Article">
+{{ partial "common/subheader.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+
+<section id="main">
+  <h1 itemprop="name" id="title">{{ .Title }}</h1>
+  <div>
+        <article itemprop="articleBody" id="content">
+           {{ .Content }}
+        </article>
+  </div>
+</section>
+
+{{ partial "common/footer.html" . }}

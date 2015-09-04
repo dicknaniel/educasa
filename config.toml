@@ -1,3 +1,7 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://knowlustrations.njdaniel.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "educasa"
+
+[taxonomies]
+  tag = "tags" # singular = "plural"
+  room = "rooms" # Which room the clip deals with
