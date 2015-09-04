@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "educasa"
 MetaDataFormat = "toml"
 paginate = 10 # optional
-copyright = "© 2015 MCBSNJ"
+copyright = "© 2015 <a href=\"http://mcbsnj.com\">mcbsnj</a>"
 
 # [params]
 #   author = "Your Name"
