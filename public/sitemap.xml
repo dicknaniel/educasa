@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/</loc>
+    <loc>http://localhost:1313/educasa/</loc>
     <lastmod>2015-09-04T11:23:04-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/lesson/garage-door/</loc>
+    <loc>http://localhost:1313/educasa/lesson/garage-door/</loc>
     <lastmod>2015-09-04T11:23:04-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/lesson/transmission-engine/</loc>
+    <loc>http://localhost:1313/educasa/lesson/transmission-engine/</loc>
     <lastmod>2015-09-04T11:22:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/lesson/scramble-eggs/</loc>
+    <loc>http://localhost:1313/educasa/lesson/scramble-eggs/</loc>
     <lastmod>2015-09-04T11:22:28-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/lesson/hedge-trimming/</loc>
+    <loc>http://localhost:1313/educasa/lesson/hedge-trimming/</loc>
     <lastmod>2015-09-04T11:22:17-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dicknaniel.github.io/educasa/lesson/gravity/</loc>
+    <loc>http://localhost:1313/educasa/lesson/gravity/</loc>
     <lastmod>2015-09-04T11:21:54-04:00</lastmod>
   </url>
   

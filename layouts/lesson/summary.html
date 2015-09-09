@@ -1,21 +1,2 @@
-<paper-card heading="{{ .Title }}" class="flex">
-  <div class="card-content">
-    <google-youtube
-      video-id="http://youtube.com"
-      height="270px"
-      width="480px"
-      rel="0"
-      start="5"
-      autoplay="1">
-    </google-youtube>
-    <paper-item>
-      <paper-item-body two-line>
-        <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
-        <div secondary>{{ .Summary }}</div>
-      </paper-item-body>
-    </paper-item>
-  </div>
-  <div class="card-actions">
-    <paper-button><a href="{{ .Permalink }}">Read More</a></paper-button>
-  </div>
-</paper-card>
+<lesson-summary class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet" title="{{ .Title }}" summary="{{ .Summary }}" permalink="{{ .Permalink }}" postmeta="{{ .Date.Format "Mon, Jan 2, 2006" }}" videourl="{{.Site.BaseURL}}/media/videos/mov_bbb.mp4">
+</lesson-summary>

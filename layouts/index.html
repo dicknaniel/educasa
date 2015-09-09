@@ -16,12 +16,10 @@
 
 {{ partial "common/subheader.html" . }}
 
-<section id="main" class="flex" layout-flex>
-  <div class="vertical center-justified layout">
-    {{ range first 10 .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+<section id="main" class="mdl-grid">
+  {{ range first 10 .Data.Pages }}
+      {{ .Render "summary"}}
+  {{ end }}
 </section>
 
 <aside id="meta"> </aside>

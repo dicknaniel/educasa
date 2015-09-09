@@ -1,6 +1,6 @@
 {{ $baseurl := .Site.BaseURL }}
 <link href='http://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/static/css/main.css">
+<link rel="stylesheet" href="{{$baseurl}}/static/css/main.css">
 <script src="{{$baseurl}}/static/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 <link rel="import" href="{{$baseurl}}/static/la-resistance/la-resistance.html">
 <link rel="import" href="{{$baseurl}}/static/bower_components/iron-icons/iron-icons.html">
@@ -17,6 +17,10 @@
 <link rel="import" href="{{$baseurl}}/static/bower_components/paper-card/paper-card.html">
 <link rel="import" href="{{$baseurl}}/static/bower_components/iron-flex-layout/iron-flex-layout.html">
 <link rel="import" href="{{$baseurl}}/static/polymer_components/lesson/lesson-summary/lesson-summary.html">
+
+<link rel="stylesheet" href="{{$baseurl}}/static/bower_components/material-design-lite/material.min.css">
+<script src="{{$baseurl}}/static/bower_components/material-design-lite/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
 <style is="custom-style">
@@ -67,6 +71,10 @@
       background-color: #d7dcdf;
     }
 
+    section.mdl-grid {
+      padding: 20px 0 40px;
+    }
+
     paper-menu a {
       text-decoration: none;
       color: #212121;
@@ -86,11 +94,6 @@
       --paper-drawer-panel-left-drawer-container: {
         background-color: white;
       };
-    }
-
-    paper-card {
-      width:90%;
-      margin:0px auto 30px;
     }
 
     .toolbar-tools.paper-toolbar paper-icon-button[icon=menu] {
