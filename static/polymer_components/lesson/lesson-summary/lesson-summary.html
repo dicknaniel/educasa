@@ -1,16 +1,23 @@
 <dom-module id="lesson-summary">
+  <style>
+  paper-card {
+    width: 100%;
+    margin: 0;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  </style>
   <template>
-    <paper-card heading="{{ .Title }}" class="flex">
-      <div class="card-content">
-        <paper-item>
-          <paper-item-body two-line>
-            <div class="post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} </div>
-            <div secondary>{{ .Summary }}</div>
-          </paper-item-body>
-        </paper-item>
-      </div>
+    <paper-card heading="{{ title }}">
+      <video controls>
+        <source src="{{ videourl }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
       <div class="card-actions">
-        <paper-button><a href="{{ .Permalink }}">Read More</a></paper-button>
+        <paper-button><a href="{{ permalink }}">Check out the full post</a></paper-button>
       </div>
     </paper-card>
   </template>
@@ -18,7 +25,11 @@
     Polymer({
       is: 'lesson-summary',
       properties: {
-        summary: String
+        title: String,
+        summary: String,
+        permalink: String,
+        postmeta: String,
+        videourl: String
       }
     });
   </script>
