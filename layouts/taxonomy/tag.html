@@ -3,13 +3,12 @@
 {{ partial "common/subheader.html" . }}
 
 <section id="main">
-  <div>
    <h1 id="title">{{ .Title }}</h1>
-   balls in taxonomy/tag
-    {{ range .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }}
-  </div>
+   <div class="mdl-grid">
+      {{ range .Data.Pages }}
+          {{ .Render "biggersummary"}}
+      {{ end }}
+    </div>
 </section>
 
 {{ partial "common/footer.html" . }}
